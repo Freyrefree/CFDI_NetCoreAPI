@@ -51,6 +51,7 @@ namespace CFDI.Cls
                 };
             }
 
+
             // Para otros tipos de comprobantes, leer todos los atributos
             var data = nodeList
                 .Cast<XmlNode>()
